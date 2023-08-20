@@ -323,8 +323,6 @@ footer {
 }
 
 .contact-info {
-   
-
     flex-basis: 30%;
     text-align: left; 
 }
@@ -383,4 +381,64 @@ footer {
 .contact-form button:hover {
     background: #ff96ad;
 }
+@media screen and (max-width : 884px) {
 
+    #page1{
+        height: 50vh;
+    }
+
+    .skills-container{
+        flex-wrap: wrap;
+    }
+
+    .skills-container div{
+        width: 120px;
+        height: 120px;
+    }
+
+    .skills-container div p{
+
+    }
+
+    .projects-section h2{
+        font-size: 10vw;
+    }
+
+    .project-cards{
+        justify-content: space-evenly;
+    }
+
+    .project-card{
+        width: 40%;
+
+    }
+
+    .project-card a{
+        font-size: 3.5vw;
+
+    }
+
+    .project-card p{
+        margin-top: 2vw;
+        font-size: 2.8vw;
+        text-align: center;
+    }
+
+    .contact-container{
+        flex-wrap: wrap;
+    }
+
+    form{
+        margin-top: 10vw;
+    }
+
+    form input{
+        font-size: 5vw;
+    }
+
+    form button{
+        display: block;
+        margin: auto;
+    }
+
+}
